@@ -1,0 +1,77 @@
+.dashboard {
+    padding: 20px;
+}
+
+.orders-summary-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 1610px; 
+    height: 100px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.card:last-child {
+    margin-right: 0;
+}
+
+h2 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+
+.orders-container, .summary-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.order-card {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.order-logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.order-price, .order-quantity {
+    margin: 0;
+}
+.App {
+    padding: 20px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 4px;
+    width: 50%; 
+    margin-bottom: 20px; 
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    flex: 1; 
+    font-size: 16px;
+}
+
+.search-icon {
+    padding: 10px;
+    cursor: pointer; 
+}

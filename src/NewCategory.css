@@ -1,0 +1,78 @@
+.new-category-container {
+    width: 100%;
+    max-width: 600px; 
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc; 
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    background-color: #fff; 
+}
+
+.new-category-title {
+    font-size: 20px; 
+    font-weight: 600; 
+    margin-bottom: 15px; 
+    font-family: 'YourFontFamily', sans-serif; 
+}
+
+.new-category-box {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 10px; 
+}
+
+.category-label {
+    font-size: 20px; 
+    margin-right: 10px; 
+    font-family: 'YourFontFamily', sans-serif;
+}
+
+.category-input {
+    flex: 1; 
+    padding: 10px; 
+    border: 1px solid #ddd;
+    border-radius: 4px; 
+    font-size: 16px; 
+    font-family: 'YourFontFamily', sans-serif; 
+}
+
+.category-input::placeholder {
+    color: #aaa; 
+}
+
+.button-container {
+    display: flex; 
+    justify-content: flex-end; 
+    gap: 10px; 
+}
+
+.discard-btn, .add-category-btn {
+    padding: 10px 15px; 
+    border: blacks;
+    border-radius: 6px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    font-size: 16px; 
+    font-family: 'YourFontFamily', sans-serif; 
+}
+
+.discard-btn {
+    background-color: rgb(172, 168, 168); 
+    color: rgb(63, 62, 62);
+    border: 1px solid #ddd;
+}
+
+.discard-btn:hover {
+    background-color: #f7f2f2; 
+}
+
+.add-category-btn {
+    background-color: #007bff; 
+    color: white;
+    border: 1px solid #ddd;
+}
+
+.add-category-btn:hover {
+    background-color: #0056b3; 
+}
